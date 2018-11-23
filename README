@@ -1,0 +1,15 @@
+python 命名原则 私有用下划线开头
+
+__init__.py 模块在包被导入时被运行了
+只有包含了此文件的文件夹才是包 否则即为普通的文件夹
+
+from day7 import*
+
+# 从day7 这个package 导入所有模块
+
+pip freeze 查看安装了什么库
+pip --version
+python --version
+
+
+urllib urllib2是相互独立的模块  不是进化升级关系
